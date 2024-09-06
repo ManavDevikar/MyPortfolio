@@ -1,0 +1,224 @@
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.Title-image{
+  width:100%;
+  height: 100%;
+  padding left: 15px; ;
+  border-radius: 2%;
+}
+.title{
+  padding: 7% 0% 4%;
+}
+#Profile{
+  background-color: #dee2f4;
+  /*background-color:#00FFAB ;*/
+}
+/* navbar */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size:1.5rem;
+  font-weight: bold;
+  color: #2B3467;
+ 
+}
+.navbar-brand:hover{
+  color: #495579;
+}
+.nav-item{
+  padding:0 1.5rem;
+}
+.nav-link{
+  font-family: "Montserrat-light", sans-serif;
+  font-size: 1.3rem;
+  color: #2B3467;
+}
+.nav-link:hover{
+  color: #495579;
+}
+
+.navbar-toggler{
+  background-color: #82AAE3;
+}
+.btn{
+  font-size: 12px;
+  font-weight:500;
+  background-color: rgb(166, 221, 178);
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 0.5px;
+  padding: 10px 20px;
+  border-radius: 5000px;
+  transition: all 0.3s;
+}
+.btn:hover{
+  transform: scale(1.15);
+}
+.btn--download{
+  padding: 10px 28px;
+  font-size: 16px;
+  bottom: 27px;
+  box-shadow: 0 1px 12px rgba(29, 30, 29, 0.45);
+  animation: fade-up 0.5s 0.4s backwards;
+}
+
+h1 { font-family: 'Montserrat', sans-serif;
+font-size: 3.5rem;
+font-weight: bold;
+color:;
+}
+h3{
+font-family: 'Montserrat', sans-serif;
+color: #472183;
+}
+h5,{
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+  font-weight: 450;
+}
+/* about*/
+#About, #Contact{
+  background-color: #BFEAF5;
+}
+.edu{
+  padding-bottom: 1%;
+}
+h2{
+  text-align: left;
+  padding-bottom: 3%;
+}
+h2:hover{
+  color: #332FD0;
+}
+/* Skills */
+#Skills{
+  background-color: #99FFCD ;
+}
+.skl{
+  width: 150px;
+  padding-top: 6%;
+  }
+.head-1{
+    padding:9% 15% 0%;
+  }
+.skl-1{
+  width: 150px;
+  padding: 3%;
+ }
+.head{
+  padding: 4% 15% 1%;
+}
+.line{
+  color: #FF1E1E;
+}
+/* contact */
+.cont{
+  font-family:'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+#Footer{
+  padding: 0.5% 15%;
+  text-align: center;
+  background-color: #204969;
+}
+
+/* project */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.project-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.project-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: #333;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #777;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.project-card .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.project-card .btn:hover {
+  background-color: #0056b3;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+h2{
+  text-align: left;
+  padding-bottom: 3%;
+}
+h2:hover{
+  color: #332FD0;
+}
+
+/* Back button */
+#move{
+   padding-left: 730px;
+}
